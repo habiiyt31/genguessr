@@ -13,7 +13,7 @@ Full-stack on-chain AI guessing game built on GenLayer.
 ## Contract Address
 
 ```
-0x057c463085c91B122EfCBDF7334C750B9434Be6F
+0xB8ed0850d674Fea7D4CEDf7261c703d92B6808b3
 ```
 
 ## Setup
