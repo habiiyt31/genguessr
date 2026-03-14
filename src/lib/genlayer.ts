@@ -6,14 +6,12 @@ const STUDIO_ENDPOINT = 'https://studio.genlayer.com/api';
 
 export function createReadClient() {
   return createClient({
-    // chain: simulator,
     endpoint: STUDIO_ENDPOINT,
   });
 }
 
 export function createWriteClient(walletAddress: string) {
   return createClient({
-    // chain: simulator,
     endpoint: STUDIO_ENDPOINT,
     account: walletAddress as `0x${string}`,
   });
