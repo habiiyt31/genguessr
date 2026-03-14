@@ -72,4 +72,4 @@ src/
 3. Player submits guess (write call, signed tx)
 4. GenLayer validators process the transaction
 5. AI on-chain validates the answer semantically
-6. XP awarded, level checked, NFT milestones triggered
+6. XP awarded, level checked.
