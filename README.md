@@ -1,4 +1,4 @@
-# GenGuessr dApp
+# GenGuessr 
 
 Full-stack on-chain AI guessing game built on GenLayer.
 
@@ -41,11 +41,11 @@ Or connect GitHub repo to Vercel dashboard.
 
 ```bash
 # Build
-gcloud builds submit --tag gcr.io/YOUR_PROJECT/genguessr-dapp
+gcloud builds submit --tag gcr.io/YOUR_PROJECT/genguessr
 
 # Deploy
-gcloud run deploy genguessr-dapp \
-  --image gcr.io/YOUR_PROJECT/genguessr-dapp \
+gcloud run deploy genguessr \
+  --image gcr.io/YOUR_PROJECT/genguessr \
   --platform managed \
   --allow-unauthenticated
 ```
